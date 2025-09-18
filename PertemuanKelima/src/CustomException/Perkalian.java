@@ -26,9 +26,10 @@ public class Perkalian {
 
     public static void main(String[] args) {
         try {
-            Tepat(2, 2);
+            Tepat(2, 0);
         } catch (PerkalianTidakTepatException e) {
             System.out.println("Menangkap Exceoption: " + e.getMessage());
         }
     }
 }
+
